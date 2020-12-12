@@ -8,10 +8,62 @@
 
 body 
 {
-	font-size: 16px; font-family: "Arial", "Helvetica", sans-serif; 
+	font-size: 16px; font-family: "avenir", "Helvetica", sans-serif; 
 }
 
 .hidden
  {
  	display: none; 
  }
+
+.container
+{
+	width: 980px;
+}
+ .mainHeader
+ {
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: space-between;
+ 	height: 520px;
+ 	margin-top: 20px;
+ 	margin-left: 10px;
+ 	margin-right: 10px;
+ 	margin-bottom: 20px;
+ }
+
+h1, h2
+{
+	font-family: "open sans";
+}
+
+.introduction, .argument, .argument2, .conclusions
+{
+	width: 980px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-top: 40px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+
+.data1, .data2, .data3
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 980px;
+	margin-top: 40px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 40px;
+}
+
+.mainFooter
+{
+	background-color: blue;
+	width: 980px;
+	height: 100px;
+}
